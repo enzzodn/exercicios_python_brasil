@@ -16,3 +16,4 @@ if num%2 == 0:
     print("Seu numero eh PAR")
 else:
     print("Seu numero eh IMPAR")
+    
