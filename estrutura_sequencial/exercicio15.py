@@ -20,6 +20,8 @@ Obs.: Salário Bruto - Descontos = Salário Líquido
 """
 
 import os 
+
+
 os.system('cls')
 
 print("--------------------------------------------------------")
