@@ -17,6 +17,10 @@ print("---------------")
 m=(float(n1)+float(n2)+float(n3)+float(n4))/4
 
 print("Sua media foi: "+str(m))
+print("---------------")
 
-"""if (m<=7):
-    print("sua ")"""
+
+if (m<7):
+    print("Sua nota final foi abaixo da media, portanto voce esta de recuperacao")
+elif (m>=7):
+    print("Voce passou da media, parabens!")
