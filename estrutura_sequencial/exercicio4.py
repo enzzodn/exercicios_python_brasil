@@ -16,7 +16,7 @@ print("---------------")
 
 m=(float(n1)+float(n2)+float(n3)+float(n4))/4
 
-print("Essa foi sua media: "+str(m))
+print("Sua media foi: "+str(m))
 
 """if (m<=7):
     print("sua ")"""
