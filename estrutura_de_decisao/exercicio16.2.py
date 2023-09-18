@@ -17,7 +17,8 @@ print("-------------------- EQUACAO DO SEGUNDO GRAU (DELTA)--------------------"
 print("------------------------------------------------------------------------ \n")
 
 print("FORMULA 1: ax² + bx + c")
-print("FORMULA 2: Δ = b² -4ac \n")
+print("FORMULA 2: Δ = b² -4ac")
+print("FORMULA 3: X = (-b ± √Δ) / 2a \n")
 print("Digite abaixo os valores de 'a', 'b' e 'c' respectivamente:")
 
 a=int(input("A: "))
@@ -32,13 +33,20 @@ c=int(input("C: "))
 print("------------------------- \n")
 
 delta = (b * b) - 4 * (a * c)
+x1 = (-b + (delta ** 1/2)) / (2 * a)
+x2 = (-b - (delta ** 1/2)) / (2 * a)
 
 if (delta > 0):
     print("O valor de 'delta' eh POSITIVO, portanto:")
     print("A equação possui duas raiz reais")
+    print("-----------")
+    print("Raiz 1: " + str(x1))
+    print("Raiz 2: " + str(x2))
 elif (delta < 0):
     print("O valor de 'delta' eh NEGATIVO, portanto:")
     print("A equação não possui raizes reais")
 elif (delta == 0):
     print("O valor de 'delta' eh IGUAL A ZERO, portanto:")
     print("A equação possui apenas uma raiz real")
+    print("-----------")
+    print("Raiz 1 e 2: " + str(x1))
