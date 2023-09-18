@@ -19,11 +19,14 @@ print("------------------------------------------------------------------------ 
 print("FORMULA 1: ax² + bx + c")
 print("FORMULA 2: Δ = b² -4ac \n")
 print("Digite abaixo os valores de 'a', 'b' e 'c' respectivamente:")
+
 a=int(input("A: "))
+
 if (a == 0):
     print("Seu valor de 'A' eh 0, equação não é do segundo grau")
     print("Portanto nao ha como calcular")
     exit() # 'exit()' para o programa
+
 b=int(input("B: "))
 c=int(input("C: "))
 print("------------------------- \n")
