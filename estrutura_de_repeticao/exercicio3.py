@@ -17,13 +17,13 @@ print("Digite abaixo os dados que se pedem: ")
 nome=input("NOME: ")
 
 # ------- NOME -------
-if (nome >= "   "):
+if (nome >= '   '):
         nome=nome
 else:
     print("----------------------------------------")
     print("------------ DADOS PESSOAIS ------------")
     print("---------------------------------------- \n")
-    
+
     print("Seu nome esta com menos de 3 caracteres!")
     print("Por favor, rescreva-o novamente: \n")
     nome=input("NOME: ")
