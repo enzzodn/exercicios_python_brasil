@@ -14,7 +14,7 @@ print("---------------------------------------- \n")
 
 print("Digite abaixo os dados que se pedem: ")
 nome=input("NOME: ")
-while (nome < "   "):
+while (len(nome) < 3):
     print("Seu nome deve ter no minino 3 caracteres!")
     print("Por favor, digite novamente!")
     break
