@@ -137,6 +137,6 @@ print("SEXO: "+ sexo)
 print("ESTADO CIVIL: "+ ec)
 
 print("------------------------------- \n")
-print("Seus dados pessoas atendem todos os nosso requisitos!")
+print("Seus dados pessoais atendem todos os nosso requisitos!")
 print("Auarde um momento e voce ja sera direcionado para outra pagina.")
 print(" ")
