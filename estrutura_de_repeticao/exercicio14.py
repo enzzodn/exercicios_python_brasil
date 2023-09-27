@@ -11,7 +11,7 @@ par=0
 impar=0
 print("Digite 10 numeros e lhe mostrarei a quantidade de pares e impares\n")
 while (teste <= 10):
-    n=int(input("Digite o "+str(teste)+" numero: "))
+    n=int(input("Digite o "+str(teste)+"º numero: "))
     if (n % 2 == 0):
         par = par + 1
     else:
