@@ -12,8 +12,8 @@ print("----------------------------------\n")
 
 pos=int(input("POSICAO: "))
 print("\n----------------------------------\n")
-n1=1
+n=1
 num=0
-while (num <= pos):
+for _ in range(pos):
     print(num)
-    num=n1+num
+    
