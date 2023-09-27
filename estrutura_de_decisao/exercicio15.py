@@ -56,6 +56,7 @@ if (maior < (menor + meio)):
     print("Eh um triangulo? SIM")
 else:
     print("Eh um triangulo? NAO")
+    exit()
 
 # ---------------- TIPOS ------------------
 if (l1 == l2) and (l1 == l3):
