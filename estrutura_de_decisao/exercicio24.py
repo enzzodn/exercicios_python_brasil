@@ -36,16 +36,33 @@ print("-------------------\n")
 
 if (op == 1):
     res=n1+n2
-    print("O resultado da sua SOMA eh: " + str(res))
+    print("O resultado da sua SOMA eh: " + str(res) + "\n")
 elif (op == 2):
     res=n1-n2
-    print("O resultado da sua SUBTRACAO eh: " + str(res))
+    print("O resultado da sua SUBTRACAO eh: " + str(res) + "\n")
 elif (op == 3):
     res=n1*n2
-    print("O resultado da sua MULTIPLICACAO eh: " + str(res))
+    print("O resultado da sua MULTIPLICACAO eh: " + str(res) + "\n")
 elif (op == 4):
     res=n1/n2 
-    print("O resultado da sua DIVISAO eh: " + str(res))
+    print("O resultado da sua DIVISAO eh: " + str(res) + "\n")
 elif (op == 5):
     res=n1**n2 
-    print("O resultado da sua POTENCIACAO eh: " + str(res))
+    print("O resultado da sua POTENCIACAO eh: " + str(res) + "\n")
+
+print("-------------------\n")
+
+if (res % 2 == 0):
+    print("Seu numero eh PAR\n")
+else:
+    print("Seu numero eh IMPAR\n")
+
+if (res >= 0):
+    print("Seu numero eh POSITIVO\n")
+else:
+    print("Seu numero eh NEGATIVO\n")
+
+"""    if (res % 2 == 0):
+        print("Seu numero eh INTEIRO")
+    else:
+        print("Seu numero eh DECIMAL")"""
